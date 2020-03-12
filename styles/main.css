@@ -118,7 +118,7 @@ input::-webkit-inner-spin-button {
   .header__rectangle {
     position: absolute;
     top: 414px;
-    left: 120px;
+    right: 715px;
     border-top: 2px solid white;
     border-radius: 2px;
     padding-top: 16px;
@@ -140,8 +140,8 @@ input::-webkit-inner-spin-button {
         -ms-flex-direction: column;
             flex-direction: column; }
   .header__rectangle {
-    top: 295px;
-    left: 55px; }
+    top: 280px;
+    right: 208px; }
   .header__action {
     left: 0; }
   .header__phone {
@@ -180,7 +180,7 @@ input::-webkit-inner-spin-button {
           justify-content: space-between; }
   .info_heading {
     position: relative;
-    bottom: 22px;
+    top: 20px;
     width: 328px;
     font-size: 48px;
     line-height: 48px;
@@ -290,7 +290,7 @@ input::-webkit-inner-spin-button {
     width: 413px; }
 
 @media screen and (max-width: 999px) {
-  .info {
+  .consultation {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -418,6 +418,15 @@ input::-webkit-inner-spin-button {
     grid-row-end: 3; }
   .contact__form {
     width: 413px; }
+
+@media screen and (max-width: 999px) {
+  .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .contact__text {
+      grid-gap: 80px; } }
 
 .footer {
   height: 359px;
