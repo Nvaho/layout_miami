@@ -295,7 +295,7 @@ input::-webkit-inner-spin-button {
     padding: 100px calc(49% - 500px);
     word-wrap: break-word; }
     .section .info_heading {
-      width: 100%; } }
+      width: 50%; } }
 
 .info {
   display: -webkit-box;
@@ -498,7 +498,9 @@ input::-webkit-inner-spin-button {
 
 .testimonials {
   display: grid;
-  grid-gap: 226px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   grid-template-columns: repeat(3, 200px); }
 
 @media screen and (max-width: 999px) {
